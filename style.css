@@ -41,7 +41,7 @@ body{
     flex: 3;
     display: flex;
     flex-direction: column;
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 
 form{
@@ -90,7 +90,8 @@ input{
     flex: 3;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 5rem 5rem 0 2rem;
+    padding: 3rem 5rem 0 2rem;
+    margin: 0;
 }
 
 .content > strong{
@@ -115,5 +116,10 @@ button:active{
     transition:0.3s ease-in-out;
     transform: scale(1.1)
 }
+
+:valid{
+    border-color:green;
+}
+
 
 
